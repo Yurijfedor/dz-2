@@ -28,6 +28,11 @@
     color: var(--primary-white-color);
 }
 
+.hero .link {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
 /* section */
 
 .section-title {
@@ -48,23 +53,28 @@
 
 /* portfolio.html */
 
+
 .examples .examples-title {
     color: var(--title-text-color);
 }
 
-.examples-filter .link {
+.button {
     color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    border-color: transparent;
 }
 
-.link {
-    text-decoration: none;
-}
-
-.examples-filter .link:hover,
-.examples-filter .link:focus {
+button:hover,
+button:focus {
     color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
 .example-list .title {
     color: var(--title-text-color);
+}
+
+.example-link {
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
