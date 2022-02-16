@@ -48,16 +48,11 @@
 
 /* portfolio.html */
 
-.filter .filter-title {
+.examples .examples-title {
     color: var(--title-text-color);
 }
 
-.filter-examples .link {
-    color: var(--title-text-color);
-}
-
-
-.example-list .title {
+.examples-filter .link {
     color: var(--title-text-color);
 }
 
@@ -65,7 +60,11 @@
     text-decoration: none;
 }
 
-.filter-examples .link:hover,
-.filter-examples .link:focus {
+.examples-filter .link:hover,
+.examples-filter .link:focus {
     color: var(--primary-white-color);
+}
+
+.example-list .title {
+    color: var(--title-text-color);
 }
