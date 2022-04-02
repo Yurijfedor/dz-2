@@ -117,7 +117,7 @@ span.accent {
 
 /* peculiarities */
 
-.peculiarities-list .title {
+.advantage-list .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -141,11 +141,6 @@ span.accent {
 }
 
 /* portfolio.html */
-/* examples */
-
-.examples .examples-title {
-  color: var(--title-text-color);
-}
 
 .button {
   color: var(--title-text-color);
@@ -164,25 +159,20 @@ button:focus {
   background-color: var(--accent-color);
 }
 
-.example-list .title {
+.card-set .title {
   color: var(--title-text-color);
 }
 
-.example-link {
+.card-set .link {
   color: var(--primary-text-color);
   text-decoration: none;
 }
 
-.example-link .title {
+.link .title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-}
-
-.example-link .text {
-  font-size: 16px;
-  line-height: 1.87;
 }
 
 /* footer */
